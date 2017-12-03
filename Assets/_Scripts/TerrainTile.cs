@@ -69,27 +69,22 @@ public class TerrainTile : MonoBehaviour {
 			_ItemIsLog = true;
 		}
 
-		if (_RandomItemAmount >= 10) {
-			_ItemAmount = 0;
-			_ItemIsLog = false;
-		}
-
-		if (_RandomItemAmount >= 20) {
+		if (_RandomItemAmount >= 15) {
 			_ItemAmount = 1;
 			_ItemIsLog = false;
 		}
 
-		if (_RandomItemAmount >= 40) {
+		if (_RandomItemAmount >= 30) {
 			_ItemAmount = 2;
 			_ItemIsLog = false;
 		}
 
-		if (_RandomItemAmount >= 70) {
+		if (_RandomItemAmount >= 60) {
 			_ItemAmount = 3;
 			_ItemIsLog = false;
 		}
 
-		if (_RandomItemAmount >= 90) {
+		if (_RandomItemAmount >= 80) {
 			_ItemAmount = 4;
 			_ItemIsLog = false;
 		}

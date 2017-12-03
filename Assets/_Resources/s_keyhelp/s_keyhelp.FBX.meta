@@ -16,6 +16,7 @@ ModelImporter:
     100016: s_key_D
     100018: s_key_S
     100020: s_key_W
+    100022: s_key_Esc
     400000: Box001
     400002: //RootNode
     400004: Text001
@@ -27,6 +28,7 @@ ModelImporter:
     400016: s_key_D
     400018: s_key_S
     400020: s_key_W
+    400022: s_key_Esc
     2300000: Box001
     2300002: Text001
     2300004: Text002
@@ -38,6 +40,7 @@ ModelImporter:
     2300016: s_key_D
     2300018: s_key_S
     2300020: s_key_W
+    2300022: s_key_Esc
     3300000: Box001
     3300002: Text001
     3300004: Text002
@@ -49,6 +52,7 @@ ModelImporter:
     3300016: s_key_D
     3300018: s_key_S
     3300020: s_key_W
+    3300022: s_key_Esc
     4300000: Box001
     4300002: Text001
     4300004: Text002
@@ -60,7 +64,18 @@ ModelImporter:
     4300016: s_key_W
     4300018: s_key_S
     4300020: s_key_arrow
-  externalObjects: {}
+    4300022: s_key_Esc
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_key
+    second: {fileID: 2100000, guid: d84f184a4bff50d4c89623b2d874c78b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: m_key_letter
+    second: {fileID: 2100000, guid: 34eeb2093fb33b445bbfc444cddd4875, type: 2}
   materials:
     importMaterials: 1
     materialName: 1

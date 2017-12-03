@@ -64,8 +64,8 @@ public class CharController : MonoBehaviour {
 	}
 
 	public void UpdateInventory(itemType item, GameObject go) {
-		float LogWeight = 1f;
-		float StickWeight = 0.1f;
+		float LogWeight = 2.3f;
+		float StickWeight = 0.15f;
 
 		// what type is the new item
 		if (item == itemType.Stick) {
